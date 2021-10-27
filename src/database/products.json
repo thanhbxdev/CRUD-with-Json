@@ -1,0 +1,42 @@
+[
+  {
+    "id": 5,
+    "name": "Product  id 5 new",
+    "price": 5555,
+    "description": "Description 5 new",
+    "product": "Product type ",
+    "color": "Color ",
+    "createdAt": "Date ",
+    "image": "Image "
+  },
+  {
+    "id": 4,
+    "name": "Product  id 5",
+    "price": 555,
+    "description": "Description",
+    "product": "Product type ",
+    "color": "Color ",
+    "createdAt": "Date ",
+    "image": "Image "
+  },
+  {
+    "id": 3,
+    "name": "Product  id 3",
+    "price": 3333,
+    "description": "Description",
+    "product": "Product type ",
+    "color": "Color ",
+    "createdAt": "Date ",
+    "image": "Image "
+  },
+  {
+    "id": 2,
+    "name": "Product  id 2",
+    "price": 2222,
+    "description": "Description here34",
+    "product": "Product type here34",
+    "color": "Color here34",
+    "createdAt": "Date here3",
+    "image": "Image URL3"
+  }
+]

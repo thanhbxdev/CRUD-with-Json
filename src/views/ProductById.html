@@ -1,0 +1,46 @@
+<h1>Product By Id</h1>
+<div>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+                <th scope="col">Product</th>
+                <th scope="col">Color</th>
+                <th scope="col">Create At</th>
+                <th scope="col">Image</th>
+                <th scope="col">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">
+                    1
+                </th>
+                <td>
+                    <%= product.name%>
+                </td>
+                <td>
+                    <%=product.description %>
+                </td>
+                <td>
+                    <%=product.product %>
+                </td>
+                <td>
+                    <%=product.color %>
+                </td>
+                <td>
+                    <%=product.createdAt %>
+                </td>
+                <td>
+                    <%=product.image %>
+                </td>
+                <td>
+                    <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">Update</button>
+                    <button type="button" class="btn btn-danger" data-toggle="button" aria-pressed="false" autocomplete="off">Remove</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
